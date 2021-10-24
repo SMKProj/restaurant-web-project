@@ -11,15 +11,17 @@ body a{
     background-color: #f6b319;
     border-radius: 0;
     border: 0;
+
 }
 #logo-img {
     background: url("../images/logo.png") no-repeat;
     width: 150px;
     height: 150px;
-    margin: 10 15 10 0;
+    margin: 10px 15px 10px 0px;
 }
 .navbar .container {
 justify-content: left;
+align-items: flex-start;
 }
 .navbar-brand {
     padding-top: 35px;
@@ -40,11 +42,15 @@ justify-content: left;
     text-decoration: none;
 }
 .navbar-brand p{
-    color: #ffff;
+    color:black;
     text-transform: uppercase;
     font-size: 0.7em;
     margin-top: 15px;
 }
 .navbar-brand p span{
     vertical-align: middle;
+}
+.navbar-toggler {
+    position: relative;
+    float: right;
 }
